@@ -4,6 +4,15 @@
     padding: 0;
     font-family: Azeret Mono;
 }
+.azeret-mono-r {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+main {
+    font-family: Azeret Mono;
+}
 nav {
     padding: 50px 150px;
     display: flex;
@@ -29,7 +38,7 @@ h3 {
 /* banner section */
 .banner {
     background-image: url(/assets/Hero-bg.png);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .banner-items {
     display: flex;
@@ -68,4 +77,87 @@ h1 {
 #anchor2 {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+/* web-dev */
+.web-dev {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.web-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.web-title h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.web-dev-item {
+    display: flex;
+    padding: 75px;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-dev-item h3 {
+     color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.web-dev-item p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.common-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    font-family: Azeret Mono;
+    font-weight: 600;
+}
+.inspiration {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ins-title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ins-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 30px;
+
+}
+.i-frame {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    border-radius: 16px;
+    
 }
