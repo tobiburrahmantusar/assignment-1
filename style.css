@@ -18,12 +18,54 @@ h3 {
 }
 #download-btn {
     padding: 17px 24px 17px 24px;
-    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    border-radius: 8px;
 }
 #anchor {
     color: rgb(13, 19, 33);
     text-decoration: none;
 }
 /* banner section */
+.banner {
+    background-image: url(/assets/Hero-bg.png);
+    margin-bottom: 100px;
+}
+.banner-items {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#group1-img {
+    width: 240.28px;
+    height: 240px;
+}
+
+h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+#intro {
+   color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity : 0.7;
+    padding: 20px 50px;
+}
+#contact-btn {
+    padding: 17px 24px 17px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: black;
+}
+#anchor2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
