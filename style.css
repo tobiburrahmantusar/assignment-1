@@ -1,17 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Azeret Mono;
 }
-.azeret-mono-font {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight:auto;
-    font-style: normal;
-  }
-main {
-    font-family: Azeret Mono;
+body{
+    font-family: "Work Sans", sans-serif;
 }
 nav {
     padding: 50px 150px;
@@ -229,7 +223,7 @@ h1 {
     display: flex;
     gap: 50px;
     padding: 40px;
-    margin: 50px;
+    margin: 50px 0;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -239,11 +233,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 50px 250px;
+    margin: 50px 200px;
     border-radius: 16px;
     padding: 64px 48px 64px 48px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     background-image: url(./assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
     background-position: center;
 }
 .support h2 {
@@ -256,7 +251,7 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-    margin-bottom: 50px;
+    margin: 40px 0;
 }
 .support-text {
     display: flex;
@@ -280,4 +275,15 @@ h1 {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 20px 30px;
+}
+.footer {
+    padding: 50px 200px;
+    display: flex ;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.img {
+    display: flex;
+    gap: 25px;
 }
